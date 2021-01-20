@@ -1,0 +1,55 @@
+.logistics{
+    height: 400px;
+    padding-right: 5px;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    position: relative;
+    .mask{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-image: linear-gradient(rgba(0, 0, 0, .0),rgba(0, 0, 0, .8));
+    }
+    .img{
+        background: url("//static.99plas.com/buyer/v2.9.2/static/img/floor-shipping.15a6132.jpg") no-repeat center;
+        background-size: 100% 100%;
+        height: 400px;
+        position: relative;
+      .wenzi{
+          position: absolute;
+          z-index: 10;
+          top: 50%;
+          width: 100%;
+          p:first-child{
+              text-align: center;
+              a{
+                color: white;
+                font-size: 36px;
+              }
+          }
+          p:nth-child(2){
+              margin: 20px 50px;
+              text-align: justify;
+              a{
+                  color: white;
+                  font-size: 12px;
+              }
+          }
+      }
+    }
+    .img02{
+        background: url("//static.99plas.com/buyer/v2.9.2/static/img/floor-customs.1a89acf.jpg") no-repeat center;
+        background-size: 100% 100%;
+        height: 400px;
+    }
+    .img03{
+        background: url("//static.99plas.com/buyer/v2.9.2/static/img/floor-finance.ad5c93f.jpg") no-repeat center;
+        background-size: 100% 100%;
+        height: 400px;
+    }
+    &:hover{
+        transform: scale(1.05);
+    }
+}

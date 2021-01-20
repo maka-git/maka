@@ -1,0 +1,33 @@
+.toolbar{
+    width: 60px;
+    height: 150px;
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    bottom: 25%;
+    .toolbar-item{
+      background-color: white;
+      text-align: center;
+      color: gray;
+      font-size: 30px;
+      font-weight: 300;
+    }
+    .up{
+      position: relative;
+      span{
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        right: 60px;
+        font-size: 14px;
+        font-weight: bold;
+        white-space: nowrap;
+        background-color: cadetblue;
+        color: white;
+        padding: 12px;
+      }
+      &:hover{
+        background-color: cadetblue;
+      }
+    }
+}
